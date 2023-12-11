@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  body {
+    background: rgba(0, 0, 0, 0.8) url(../img/dog-in-spa-1.jpg) no-repeat center center fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #F39C12;
+  }
+/* Navbar */
+.navbar {
+    background: transparent;
+    border-radius: 20px;
+    padding: 10px;
+    position: sticky;
+    border-bottom: 2px solid #F39C12;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    margin: 40px auto;
+    padding: 20px;
+    width: 30%;
+    padding: 10px;
+    background: transparent;
+    box-shadow: 0 0 50px #000000;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.transparent-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: none;
+    padding-left: 0;
+    border-bottom: 1px solid #67F7FB;
+    color: #67F7FB;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    color: #F39C12;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.calendar {
+    table-layout: fixed;
+  }
+
+  .calendar th,
+  .calendar td {
+    width: 14.28%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .calendar th {
+    background: #f2f2f2;
+  }
+
+  .calendar td {
+    height: 100px;
+  }
+
+  .calendar td.prev-month,
+  .calendar td.next-month {
+    background: #e6e6e6;
+  }
+
+  .calendar td.today {
+    background: #c3e6e6;
+  }
+
+  .event {
+    margin-bottom: 5px;
+  }
+
+  .event-title {
+    font-weight: bold;
+  }

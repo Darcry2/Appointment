@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  body {
+    background: rgba(0, 0, 0, 0.9) url(../img/dog-in-spa-1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: darken;
+  }
+/* Custom styles for the appointment table */
+.table {
+    margin-top: 20px;
+  }
+  
+  /* Custom styles for the update modal */
+  .modal-content {
+    border-radius: 0;
+    background-color: black;
+    box-shadow: 0 0 10px #141414;
+    color: #F39C12;
+    border-radius: 40px;
+    border: 1px solid #F39C12;
+  }
+  
+  .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+    background: transparent;
+    text-align: center;
+  }
+  
+  .modal-title {
+    font-size: 24px;
+    background: transparent;
+    text-align: center;
+  }
+  
+  .modal-body {
+    padding: 20px;
+    background: transparent;
+  }
+  
+  /* Custom styles for the form inputs */
+  .transparent-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+  }
+  
+  /* Custom styles for the update button in the table */
+  .btn-update {
+    margin-right: 5px;
+    background: transparent;
+    border-radius: 20px;
+  }
+  
+th {
+    color: #F39C12;
+}
+
+td {
+    color: #52BE80;
+}
+
+h1 {
+    color: #F39C12;
+}
+
+input[type=password] {
+    width: 50%;
+    outline: none;
+    background: transparent;
+    color: #67F7FB;
+    border: none;
+    background: none;
+    border-bottom: 2px solid aliceblue;
+}
+
+input[type=text]::placeholder {
+    color: #67F7FB;
+    text-align: right;
+  }
+  
+  input[type=text]::placeholder {
+    color: #67F7FB;
+    text-align: right;
+  }

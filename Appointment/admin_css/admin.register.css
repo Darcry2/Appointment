@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background: rgba(0, 0, 0, 0.8) url(../img/dog-in-spa-1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #F39C12;
+    justify-content: center;
+    display: flex;
+}
+.container {
+    width: 40%;
+    padding: 10px;
+    background: transparent;
+    box-shadow: 0 0 10px #000;
+}
+.input-field {
+    border: none;
+    border-bottom: 1px solid #02D1F2;
+    background-color: transparent;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .input-field:focus {
+    /* Add additional styles when the input field is focused */
+    border-color: blue;
+    background-color: white; /* Set the desired background color when the input is focused */
+  }
+  .button {
+    /* Add styles for the button */
+    background-color: blue;
+    color: #F39C12;
+    border: black solid 1px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: transparent;
+}
+  
+.button:hover {
+    /* Add styles for the button when hovered */
+    transition: 0.5s;
+    background-color: darkblue;
+  }
+
+input[type=text]::placeholder {
+    color: #67F7FB;
+    text-align: right;
+}
+
+input[type=password]::placeholder {
+    color: #67F7FB;
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+  }
+  
+  .text-center p {
+    margin-bottom: 10px;
+  }
+  
+  .text-center a {
+    color: #F39C12;
+    text-decoration: none;
+  }
+  
+  .text-center a:hover {
+    color: #02D1F2;
+    text-decoration: underline;
+  }

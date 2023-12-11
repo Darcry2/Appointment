@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  body {
+    background: rgba(0, 0, 0, 0.8) url(../img/dog-in-spa-1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #F39C12;
+    justify-content: center;
+    display: flex;
+  }
+  .container {
+    width: 40%;
+    padding: 10px;
+    background: transparent;
+    box-shadow: 0 0 10px #141414;
+  }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #67F7FB;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+}
+
+.form-check {
+    margin-top: 10px;
+}
+
+.home-link {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-link a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.home-link a:hover {
+    text-decoration: underline;
+}
+
+input[type=password] {
+    width: 50%;
+    outline: none;
+    background: transparent;
+    color: #67F7FB;
+    border: none;
+    background: none;
+    border-bottom: 2px solid aliceblue;
+}
+
+
+
